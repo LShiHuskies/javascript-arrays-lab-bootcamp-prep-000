@@ -1,4 +1,4 @@
 const app = "I don't do much."
-function destructivelyAppendKitten(name) {
-  return name.unshift("kittens")
+function destructivelyAppendKitten(name, element) {
+  return name.unshift(element)
 }

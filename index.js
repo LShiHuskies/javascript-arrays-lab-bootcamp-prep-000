@@ -13,6 +13,6 @@ function destructivelyRemoveLastKitten() {
   return kittens
 }
 function destructiveRemoveFirstKitten() {
-  kittens.slice(0)
+  kittens.shift()
   return kittens
 }
